@@ -1,1 +1,24 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+.output/
+.vercel/
+
+# TanStack / Vite cache
+.tanstack/
+.vite/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

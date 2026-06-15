@@ -12,4 +12,9 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Use the Vercel Nitro preset for Vercel deployments.
+  // Nitro's auto-detection (NITRO_PRESET env var) still takes priority.
+  nitro: {
+    preset: "vercel",
+  },
 });
